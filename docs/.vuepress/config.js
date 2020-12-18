@@ -37,6 +37,10 @@ module.exports = {
                 text: 'JavaScript',
                 link: '/JavaScript/',
               },
+              {
+                text: 'CSS',
+                link: '/CSS/',
+              },
             ],
           },
           {
@@ -65,6 +69,11 @@ module.exports = {
               },
             ],
           },
+          {
+            title: 'CSS',
+            path: '/CSS/',
+            children: ['/CSS/:first-child', '/CSS/:first-of-type'],
+          },
         ],
       },
       '/zh/': {
@@ -92,6 +101,10 @@ module.exports = {
                 text: 'JavaScript',
                 link: '/JavaScript/',
               },
+              {
+                text: 'CSS',
+                link: '/CSS/',
+              },
             ],
           },
           {
@@ -118,6 +131,15 @@ module.exports = {
                   '/zh/JavaScript/Built-in objects/ArrayBuffer',
                 ],
               },
+            ],
+          },
+          {
+            title: 'CSS',
+            path: '/zh/CSS/',
+            children: [
+              '/zh/CSS/:first-child',
+              '/zh/CSS/:first-of-type',
+              '/zh/CSS/Shorthand_properties',
             ],
           },
         ],
