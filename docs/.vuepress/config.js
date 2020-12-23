@@ -118,6 +118,25 @@ module.exports = {
                   '/zh/JavaScript/Built-in objects/ArrayBuffer',
                 ],
               },
+              {
+                title: '参考',
+                path: '/zh/JavaScript/Reference/',
+                children: [
+                  {
+                    title: '全局对象',
+                    path: '/zh/JavaScript/Reference/Global_Objects/',
+                    children: [
+                      {
+                        title: 'Array',
+                        path: '/zh/JavaScript/Reference/Global_Objects/Array',
+                        children: [
+                          '/zh/JavaScript/Reference/Global_Objects/Array/sort',
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
             ],
           },
         ],
