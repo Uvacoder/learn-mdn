@@ -135,6 +135,17 @@ module.exports = {
                       },
                     ],
                   },
+                  {
+                    title: '内置对象',
+                    path: '/zh/JavaScript/Reference/Built-in objects/',
+                    children: [
+                      {
+                        title: 'parseInt',
+                        path:
+                          '/zh/JavaScript/Reference/Built-in objects/parseInt',
+                      },
+                    ],
+                  },
                 ],
               },
             ],
