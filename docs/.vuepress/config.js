@@ -144,6 +144,18 @@ module.exports = {
                         path:
                           '/zh/JavaScript/Reference/Built-in objects/parseInt',
                       },
+                      {
+                        title: 'Number',
+                        path:
+                          '/zh/JavaScript/Reference/Built-in objects/Number',
+                        children: [
+                          {
+                            title: 'toExponential',
+                            path:
+                              '/zh/JavaScript/Reference/Built-in objects/Number/toExponential',
+                          },
+                        ],
+                      },
                     ],
                   },
                 ],
