@@ -74,6 +74,17 @@ module.exports = {
             path: '/CSS/',
             children: ['/CSS/:first-child', '/CSS/:first-of-type'],
           },
+          {
+            title: 'SVG',
+            path: '/SVG/',
+            children: [
+              {
+                title: 'SVG element reference',
+                path: '/SVG/Element/',
+                children: ['/SVG/Element/use.md'],
+              },
+            ],
+          },
         ],
       },
       '/zh/': {
@@ -182,6 +193,17 @@ module.exports = {
               '/zh/CSS/:first-child',
               '/zh/CSS/:first-of-type',
               '/zh/CSS/Shorthand_properties',
+            ],
+          },
+          {
+            title: 'SVG',
+            path: '/SVG/',
+            children: [
+              {
+                title: 'SVG element reference',
+                path: '/SVG/Element/',
+                children: ['/SVG/Element/use.md'],
+              },
             ],
           },
         ],
