@@ -225,4 +225,5 @@ module.exports = {
       description: '网络技术开发文档',
     },
   },
+  plugins: ['@vuepress/back-to-top'],
 };
