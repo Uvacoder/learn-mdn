@@ -67,6 +67,11 @@ module.exports = {
                   '/JavaScript/Built-in objects/ArrayBuffer',
                 ],
               },
+              {
+                title: 'Data_structures',
+                path: '/JavaScript/Data_structures/',
+                children: [],
+              },
             ],
           },
           {
@@ -82,6 +87,17 @@ module.exports = {
                 title: 'SVG element reference',
                 path: '/SVG/Element/',
                 children: ['/SVG/Element/use.md'],
+              },
+            ],
+          },
+          {
+            title: 'docs',
+            path: '/docs/',
+            children: [
+              {
+                title: 'Glossary',
+                path: '/docs/Glossary/',
+                children: ['/docs/Glossary/Primitive.md'],
               },
             ],
           },
