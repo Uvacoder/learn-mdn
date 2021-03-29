@@ -90,17 +90,6 @@ module.exports = {
               },
             ],
           },
-          {
-            title: 'docs',
-            path: '/docs/',
-            children: [
-              {
-                title: 'Glossary',
-                path: '/docs/Glossary/',
-                children: ['/docs/Glossary/Primitive.md'],
-              },
-            ],
-          },
         ],
       },
       '/zh/': {
