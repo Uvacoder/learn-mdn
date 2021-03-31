@@ -1,3 +1,3 @@
-# DOMString
+# Events
 
 <!-- TODO -->
