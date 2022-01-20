@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/learn-mdn/',
   description: 'Mozilla Developer Network',
   themeConfig: {
     logo: '/assets/img/logo.svg',
